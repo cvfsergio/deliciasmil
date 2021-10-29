@@ -72,7 +72,7 @@ header ul li a
 }
 .content .textBox h2 span
 {
-    color: #eb7495;
+    color: #fe4a49;
     font-size: 1.2em;
     font-weight: 900;
 }
@@ -85,7 +85,7 @@ header ul li a
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #eb7495;
+    background: #fe4a49;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -108,7 +108,7 @@ header ul li a
 {
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: -132px;
     transform: translateX(-50%);
     display: flex;
 }
@@ -158,7 +158,7 @@ header ul li a
     width: 100%;
     height: 100%;
     background: #eb7495;
-    background: url(kinder_e_ferrero.jpg);
+    /* background: url(kinder_e_ferrero.jpg); */
     clip-path: circle(600px at right 800px);
 }
 @media (max-width: 991px)
@@ -250,18 +250,18 @@ header ul li a
     }
     .thumb {
         position: relative;
-        left: 33%;
-        bottom: -40px;
+        left: 45%;
+        bottom: -135px;
         transform: translateX(-50%);
         display: flex;
     }    
     .thumb li img
     {
-        max-width: 40px;
+        max-width: 100px;
     }
     .sci
     {
-        background: #eb7495;
+        background: #fe4a49;
         right: 0;
         width: 50px;
         border-top-left-radius: 5px;

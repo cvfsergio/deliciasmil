@@ -35,11 +35,11 @@
                 <a href="#">Conheça Mais</a>
             </div>
             <div class="imgBox">
-               <img src="images/birthday-cake-2_800x800.png" class="deliciasmil">
+               <img src="images/cookie-png-1.png" class="deliciasmil">
             </div>
             <ul class="thumb">
                 <li><img src="images/birthday-cake-thumb-2.png" onclick="imgSlider('images/birthday-cake-2_800x800.png');changeCircleColor('#eb7495')"></li>
-                <li><img src="images/birthday-cake-thumb-1.png" onclick="imgSlider('images/birthday-cake-1_800x800.png');changeCircleColor('#017143')"></li>
+                <li><img src="images/cookie-thumb-1.png" onclick="imgSlider('images/cookie-png-1.png');changeCircleColor('#f37736')"></li>
                 <li><img src="images/birthday-cake-thumb-3.png" onclick="imgSlider('images/birthday-cake-3_800x800.png');changeCircleColor('#d752b1')"></li>
             </ul>
             <ul class="sci">
@@ -57,7 +57,7 @@
 
         function changeCircleColor(color){
             const circle =  document.querySelector('.circle');
-            circle.style.background = url(kinder_e_ferrero.jpg);
+            circle.style.background = color;
         }
 
         function toggleMenu(){
